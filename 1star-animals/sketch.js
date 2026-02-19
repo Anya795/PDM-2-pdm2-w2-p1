@@ -3,6 +3,7 @@ let bear;
 let cat;
 let monkey;
 
+
 function setup() {
     createCanvas(400,400);
     // TODO create the canvas
@@ -30,14 +31,15 @@ class Animal{
     y;
     speedX;
     speedY;
+    external;
 }
 
 constuctor();
-this.x = 50;
+    this.x = 50;
 this.y = 50;
-this.loadImage = bear;
-this.loadImage = cat;
-this.loadImage = monkey;
+this.external = 20;
+
+
     //this.speedX = 3;
     //this.speedy = 3;
 
